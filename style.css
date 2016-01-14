@@ -1,12 +1,58 @@
-.box1 {
-    background-color: darkcyan;
-height:100px;
-    
+.navbar-form a {
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar-form a:hover {
+    color: #000;
+}
+
+.ma-efekt {
+    transition: all 500ms ease;
+    background: green;
+    height: 20px;
+    width: 45px;
+}
+.ma-efekt.powieksz {
+    width: 200px;
+    height: 300px;
+}
+/*to jest przykłąd, ale nie używajcie hover ;)
+.ma-efekt:hover {
+    height: 200px;
+}
+*/
+
+@media (orientation: landscape) {
+    /*poziomo trzymane urządzenie*/
+}
+
+@media (max-width: 800px) {
+    .ukryte-ponizej-800 {
+        display: none;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 800px) {
+    /*poziome i szersze niż 800*/
 }
 
 
-.box2 {
-    background-color: orange;
-height:100px;
+.przycisk_wyboru {
+border: solid;
     
+padding: 5px;
+text-align: center;
+    margin-top: 20px;
+margin-bottom: 10px;
+}
+
+.btn btn-default{
+margin-left:20px;
+    margin-top:10px;
+}
+
+
+.dodaj {
+    text-align: center;
 }
