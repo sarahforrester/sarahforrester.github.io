@@ -36,15 +36,19 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- ^^ to jest ten hamburger ^^ -->
-<a href="szukam.html" class="mojbackbutton btn btn-default navbar-btn">
+<a href="index.html"> <button type="button" class="btn btn-default btn-sm">
    <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span> 
- </a>    
-            </div>
+</button>  </a>                </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
+<button type="button" class="btn btn-default btn-sm">
+   <span class="glyphicon glyphicon-repeat" aria-hidden="true"></span> 
+</button>                    </li>
+                       
+                       <li>
                         <a href="lokalizuj.html">lokalizuj</a>
                     </li>
                     <li>
@@ -60,26 +64,30 @@
                         <a href="oaplikacji.html">o aplikacji</a>
                     </li>
                 </ul>
-             
-             
-             
+              
+              
+               
+
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
     </nav>
 
+    <body class="tylkotu">
     <div class="container-fluid">
         
-    <div class="wydarzenie"> 
-         <h2> Tytuł wydarzenia</h2>
-        <h4> Data </h4>
-            <h4> Miejsce </h4>
-         
-         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate diam dui, id pulvinar velit venenatis imperdiet. Sed urna lorem, sollicitudin sit amet volutpat sit amet, venenatis a metus. Curabitur lectus leo, tincidunt et dignissim a, pulvinar nec neque. Nam sit amet tincidunt nisi. Nullam turpis leo, sollicitudin in maximus vel, luctus at ligula. Vivamus a dapibus augue. Quisque vitae justo sit amet urna lacinia aliquet. Phasellus placerat neque nec nulla facilisis, ac tristique odio sollicitudin. Donec volutpat tortor ut tincidunt tempus. Ut eu lacus laoreet, auctor tellus ac, dapibus felis. Sed volutpat metus ut ante sagittis tincidunt. Donec ultrices non leo vitae rhoncus. Etiam nisl lacus, euismod vel egestas in, aliquam eget justo. </p>
-       </div>
+       <div class="dodaj"> <a href="dodaj_wydarzenie"> <button type="button" class="btn btn-default" aria-label="Center Align"> 
+  <span class="glyphicon  glyphicon-plus" aria-hidden="true"></span> </button>
+     <p> dodaj wydarzenie </p>
+      
+    
+       
+           </a>
+        </div>
         </div>
 
+    </body>
 
    
 

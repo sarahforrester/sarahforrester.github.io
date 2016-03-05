@@ -21,14 +21,15 @@ background: #567 url("http://i65.tinypic.com/aonafk.png") no-repeat center;
 }
 
 p {
+    font-kerning: auto;
+    font-size: 12px;
+    font-weight: 200;
     border-style: none;
 }
 
 
 .przycisk_wyboru {
-border: solid;
-    border-color: white;
-padding: 5px;
+ padding: 5px;
 text-align: center;
     margin-top: 20px;
 margin-bottom: 10px;
