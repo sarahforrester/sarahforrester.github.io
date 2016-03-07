@@ -9,6 +9,11 @@ a {
     border-style: none;
 }
 
+body.main {
+    background: #fff url("http://s14.postimg.org/q76dfv9tt/tlo_apka_pattern.png") no-repeat center;
+    background-size: cover;
+}
+
 body.tylkotu {
 background: #567 url("http://i65.tinypic.com/aonafk.png") no-repeat center;
     background-size: cover;
@@ -29,10 +34,18 @@ p {
 
 
 .przycisk_wyboru {
- padding: 5px;
+ 
+    border: solid;
+    border-width: 5px;
+    border-color: white;
+    width: 240px;
+    height: 50px;
+    background: blue;
+    padding: 5px;
 text-align: center;
-    margin-top: 20px;
-margin-bottom: 10px;
+    margin-left: 70px;
+    margin-top: 40px;
+margin-bottom: 20px;
     
 }
 
